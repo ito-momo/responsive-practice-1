@@ -195,7 +195,6 @@
 .box-7-3 {
   width: 300px;
   height: 300px;
-
 }
 
 .box-7-1 {
@@ -204,13 +203,14 @@
 }
 
 .box-7-2 {
-  background-color: #00ff51;
+  background-color: #0008ff;
+  display: none;
   float: left;
 }
 
 .box-7-3 {
-  background-color: #0008ff;
-  display: none;
+  background-color: #00ff51;
+  float: left;
 }
 
 @media screen and (max-width: 960px) {
@@ -219,11 +219,6 @@
   }
 
   .box-7-2 {
-    order: 2;
-  }
-
-  .box-7-3 {
     display: block;
-    order: 1;
   }
 }
